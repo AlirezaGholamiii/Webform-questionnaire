@@ -1,0 +1,414 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>True Colors Personality Test - </title>
+		<link rel="stylesheet" href="CSS/style.css">
+		<script src="JavaScript/jquery.js"></script>
+		<script type="text/javascript"  src="JavaScript/QuestionnaireForm.js"></script>
+		
+		<div id="back"></div>
+		<div id="front"></div>
+
+	</head>
+	
+	<body>
+		<br/>	
+		<br/><br/>
+		<div class="allquestion">
+			<div class="numberq">
+			<p class="title">EXPLORE</p></div><div class="oneinfo">
+				<h1 class="intro"><span style="color: #2C3E50;">Exploring Your Colors</span></h1><br>
+				<p class="intro">&nbsp;&nbsp;&nbsp;&nbsp;Below are 11 incomplete sentences that describe people. Each sentence has four possible
+					endings. Give four points to the phrase that is &#34;most like you,&#34; three points to the phrase
+					that is &#34;next most like you,&#34; two points to the next phrase, and one point to the phrase
+					that is &#34;least like you.&#34;</p><br>
+				<p  id="que" >Use the sentences below to describe your personality.</p>
+			</div>
+		</div>
+		<!--All question-->
+		<form action="" method="" onsubmit="return questionnaire_Check(this)">
+		<div class="allquestion">
+			<div class="numberq">
+				<p>01</p></div><div class="onequestion">
+				<div class="question">
+					<h2>When I make decisions&#58;</h2>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>I do it quickly and go with the first impressions.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="aa1" name="aa" value="1"><label for="aa1">1</label></span><span class="radiob2"><input type="radio" id="aa2" name="aa" value="2"><label for="aa2">2</label></span><span class="radiob3"><input type="radio" id="aa3" name="aa" value="3"><label for="aa3">3</label></span><span class="radiob4"><input type="radio" id="aa4" name="aa" value="4"><label for="aa4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>I think about it, consider the options and then decide.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="ab1" name="ab" value="1"><label for="ab1">1</label></span><span class="radiob2"><input type="radio" id="ab2" name="ab" value="2"><label for="ab2">2</label></span><span class="radiob3"><input type="radio" id="ab3" name="ab" value="3"><label for="ab3">3</label></span><span class="radiob4"><input type="radio" id="ab4" name="ab" value="4"><label for="ab4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>I listen to my feelings and consider how my decisions will affect others.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="ac1" name="ac" value="1"><label for="ac1">1</label></span><span class="radiob2"><input type="radio" id="ac2" name="ac" value="2"><label for="ac2">2</label></span><span class="radiob3"><input type="radio" id="ac3" name="ac" value="3"><label for="ac3">3</label></span><span class="radiob4"><input type="radio" id="ac4" name="ac" value="4"><label for="ac4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>I take it seriously and always try to make the right decision.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="ad1" name="ad" value="1"><label for="ad1">1</label></span><span class="radiob2"><input type="radio" id="ad2" name="ad" value="2"><label for="ad2">2</label></span><span class="radiob3"><input type="radio" id="ad3" name="ad" value="3"><label for="ad3">3</label></span><span class="radiob4"><input type="radio" id="ad4" name="ad" value="4"><label for="ad4">4</label></span></span>
+				</div>
+			</div>
+		</div>
+		<div class="allquestion">
+			<div class="numberq">
+				<p>02</p></div><div class="onequestion">
+				<div class="question">
+					<h2>The best way for others to show me they care about me is to&#58;</h2>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Do fun things with me.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="ba1" name="ba" value="1"><label for="ba1">1</label></span><span class="radiob2"><input type="radio" id="ba2" name="ba" value="2"><label for="ba2">2</label></span><span class="radiob3"><input type="radio" id="ba3" name="ba" value="3"><label for="ba3">3</label></span><span class="radiob4"><input type="radio" id="ba4" name="ba" value="4"><label for="ba4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Give me space to be myself.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="bb1" name="bb" value="1"><label for="bb1">1</label></span><span class="radiob2"><input type="radio" id="bb2" name="bb" value="2"><label for="bb2">2</label></span><span class="radiob3"><input type="radio" id="bb3" name="bb" value="3"><label for="bb3">3</label></span><span class="radiob4"><input type="radio" id="bb4" name="bb" value="4"><label for="bb4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Spend time with me doing whatever.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="bc1" name="bc" value="1"><label for="bc1">1</label></span><span class="radiob2"><input type="radio" id="bc2" name="bc" value="2"><label for="bc2">2</label></span><span class="radiob3"><input type="radio" id="bc3" name="bc" value="3"><label for="bc3">3</label></span><span class="radiob4"><input type="radio" id="bc4" name="bc" value="4"><label for="bc4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Do what I want to do; not let me down or go back on their word.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="bd1" name="bd" value="1"><label for="bd1">1</label></span><span class="radiob2"><input type="radio" id="bd2" name="bd" value="2"><label for="bd2">2</label></span><span class="radiob3"><input type="radio" id="bd3" name="bd" value="3"><label for="bd3">3</label></span><span class="radiob4"><input type="radio" id="bd4" name="bd" value="4"><label for="bd4">4</label></span></span>
+				</div>
+			</div>
+		</div>
+		<div class="allquestion">
+			<div class="numberq">
+				<p>03</p></div><div class="onequestion">
+				<div class="question">
+					<h2>When I&#39;m with my friends, I like to provide&#58;</h2>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>The excitement; the fun; the jokes.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="ca1" name="ca" value="1"><label for="ca1">1</label></span><span class="radiob2"><input type="radio" id="ca2" name="ca" value="2"><label for="ca2">2</label></span><span class="radiob3"><input type="radio" id="ca3" name="ca" value="3"><label for="ca3">3</label></span><span class="radiob4"><input type="radio" id="ca4" name="ca" value="4"><label for="ca4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Questions; answers; a logical way of looking at things.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="cb1" name="cb" value="1"><label for="cb1">1</label></span><span class="radiob2"><input type="radio" id="cb2" name="cb" value="2"><label for="cb2">2</label></span><span class="radiob3"><input type="radio" id="cb3" name="cb" value="3"><label for="cb3">3</label></span><span class="radiob4"><input type="radio" id="cb4" name="cb" value="4"><label for="cb4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Concern for others; a lot of caring.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="cc1" name="cc" value="1"><label for="cc1">1</label></span><span class="radiob2"><input type="radio" id="cc2" name="cc" value="2"><label for="cc2">2</label></span><span class="radiob3"><input type="radio" id="cc3" name="cc" value="3"><label for="cc3">3</label></span><span class="radiob4"><input type="radio" id="cc4" name="cc" value="4"><label for="cc4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>The planning; a sense of security; a good standard.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="cd1" name="cd" value="1"><label for="cd1">1</label></span><span class="radiob2"><input type="radio" id="cd2" name="cd" value="2"><label for="cd2">2</label></span><span class="radiob3"><input type="radio" id="cd3" name="cd" value="3"><label for="cd3">3</label></span><span class="radiob4"><input type="radio" id="cd4" name="cd" value="4"><label for="cd4">4</label></span></span>
+				</div>
+			</div>
+		</div>
+		<div class="allquestion">
+			<div class="numberq">
+				<p>04</p></div><div class="onequestion">
+				<div class="question">
+					<h2>I like to&#58;</h2>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Act on a moment&#39;s notice; do risky things.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="da1" name="da" value="1"><label for="da1">1</label></span><span class="radiob2"><input type="radio" id="da2" name="da" value="2"><label for="da2">2</label></span><span class="radiob3"><input type="radio" id="da3" name="da" value="3"><label for="da3">3</label></span><span class="radiob4"><input type="radio" id="da4" name="da" value="4"><label for="da4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Provide answers or give thought to people&#39;s questions.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="db1" name="db" value="1"><label for="db1">1</label></span><span class="radiob2"><input type="radio" id="db2" name="db" value="2"><label for="db2">2</label></span><span class="radiob3"><input type="radio" id="db3" name="db" value="3"><label for="db3">3</label></span><span class="radiob4"><input type="radio" id="db4" name="db" value="4"><label for="db4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Help maintain a sense of harmony and togetherness.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="dc1" name="dc" value="1"><label for="dc1">1</label></span><span class="radiob2"><input type="radio" id="dc2" name="dc" value="2"><label for="dc2">2</label></span><span class="radiob3"><input type="radio" id="dc3" name="dc" value="3"><label for="dc3">3</label></span><span class="radiob4"><input type="radio" id="dc4" name="dc" value="4"><label for="dc4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Be responsible, dependable, and helpful to others.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="dd1" name="dd" value="1"><label for="dd1">1</label></span><span class="radiob2"><input type="radio" id="dd2" name="dd" value="2"><label for="dd2">2</label></span><span class="radiob3"><input type="radio" id="dd3" name="dd" value="3"><label for="dd3">3</label></span><span class="radiob4"><input type="radio" id="dd4" name="dd" value="4"><label for="dd4">4</label></span></span>
+				</div>
+			</div>
+		</div>
+		<div class="allquestion">
+			<div class="numberq">
+				<p>05</p></div><div class="onequestion">
+				<div class="question">
+					<h2>One thing I am really good at is&#58;</h2>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Acting courageously.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="ea1" name="ea" value="1"><label for="ea1">1</label></span><span class="radiob2"><input type="radio" id="ea2" name="ea" value="2"><label for="ea2">2</label></span><span class="radiob3"><input type="radio" id="ea3" name="ea" value="3"><label for="ea3">3</label></span><span class="radiob4"><input type="radio" id="ea4" name="ea" value="4"><label for="ea4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Thinking.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="eb1" name="eb" value="1"><label for="eb1">1</label></span><span class="radiob2"><input type="radio" id="eb2" name="eb" value="2"><label for="eb2">2</label></span><span class="radiob3"><input type="radio" id="eb3" name="eb" value="3"><label for="eb3">3</label></span><span class="radiob4"><input type="radio" id="eb4" name="eb" value="4"><label for="eb4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Being sensitive.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="ec1" name="ec" value="1"><label for="ec1">1</label></span><span class="radiob2"><input type="radio" id="ec2" name="ec" value="2"><label for="ec2">2</label></span><span class="radiob3"><input type="radio" id="ec3" name="ec" value="3"><label for="ec3">3</label></span><span class="radiob4"><input type="radio" id="ec4" name="ec" value="4"><label for="ec4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Organizing.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="ed1" name="ed" value="1"><label for="ed1">1</label></span><span class="radiob2"><input type="radio" id="ed2" name="ed" value="2"><label for="ed2">2</label></span><span class="radiob3"><input type="radio" id="ed3" name="ed" value="3"><label for="ed3">3</label></span><span class="radiob4"><input type="radio" id="ed4" name="ed" value="4"><label for="ed4">4</label></span></span>
+				</div>
+			</div>
+		</div>
+		<div class="allquestion">
+			<div class="numberq">
+				<p>06</p></div><div class="onequestion">
+				<div class="question">
+					<h2>Friends who know me best would say that I am&#58;</h2>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Competitive.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="fa1" name="fa" value="1"><label for="fa1">1</label></span><span class="radiob2"><input type="radio" id="fa2" name="fa" value="2"><label for="fa2">2</label></span><span class="radiob3"><input type="radio" id="fa3" name="fa" value="3"><label for="fa3">3</label></span><span class="radiob4"><input type="radio" id="fa4" name="fa" value="4"><label for="fa4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Reserved, thoughtful.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="fb1" name="fb" value="1"><label for="fb1">1</label></span><span class="radiob2"><input type="radio" id="fb2" name="fb" value="2"><label for="fb2">2</label></span><span class="radiob3"><input type="radio" id="fb3" name="fb" value="3"><label for="fb3">3</label></span><span class="radiob4"><input type="radio" id="fb4" name="fb" value="4"><label for="fb4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Emotional, friendly.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="fc1" name="fc" value="1"><label for="fc1">1</label></span><span class="radiob2"><input type="radio" id="fc2" name="fc" value="2"><label for="fc2">2</label></span><span class="radiob3"><input type="radio" id="fc3" name="fc" value="3"><label for="fc3">3</label></span><span class="radiob4"><input type="radio" id="fc4" name="fc" value="4"><label for="fc4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Neat, prepared.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="fd1" name="fd" value="1"><label for="fd1">1</label></span><span class="radiob2"><input type="radio" id="fd2" name="fd" value="2"><label for="fd2">2</label></span><span class="radiob3"><input type="radio" id="fd3" name="fd" value="3"><label for="fd3">3</label></span><span class="radiob4"><input type="radio" id="fd4" name="fd" value="4"><label for="fd4">4</label></span></span>
+				</div>
+			</div>
+		</div>
+		<div class="allquestion">
+			<div class="numberq">
+				<p>07</p></div><div class="onequestion">
+				<div class="question">
+					<h2>My basic approach to life is&#58;</h2>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>To take one day at a time and have fun.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="ga1" name="ga" value="1"><label for="ga1">1</label></span><span class="radiob2"><input type="radio" id="ga2" name="ga" value="2"><label for="ga2">2</label></span><span class="radiob3"><input type="radio" id="ga3" name="ga" value="3"><label for="ga3">3</label></span><span class="radiob4"><input type="radio" id="ga4" name="ga" value="4"><label for="ga4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>To figure out what life is all about.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="gb1" name="gb" value="1"><label for="gb1">1</label></span><span class="radiob2"><input type="radio" id="gb2" name="gb" value="2"><label for="gb2">2</label></span><span class="radiob3"><input type="radio" id="gb3" name="gb" value="3"><label for="gb3">3</label></span><span class="radiob4"><input type="radio" id="gb4" name="gb" value="4"><label for="gb4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>To help others and be happy and succeed.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="gc1" name="gc" value="1"><label for="gc1">1</label></span><span class="radiob2"><input type="radio" id="gc2" name="gc" value="2"><label for="gc2">2</label></span><span class="radiob3"><input type="radio" id="gc3" name="gc" value="3"><label for="gc3">3</label></span><span class="radiob4"><input type="radio" id="gc4" name="gc" value="4"><label for="gc4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>To plan for the future and make it as good as possible.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="gd1" name="gd" value="1"><label for="gd1">1</label></span><span class="radiob2"><input type="radio" id="gd2" name="gd" value="2"><label for="gd2">2</label></span><span class="radiob3"><input type="radio" id="gd3" name="gd" value="3"><label for="gd3">3</label></span><span class="radiob4"><input type="radio" id="gd4" name="gd" value="4"><label for="gd4">4</label></span></span>
+				</div>
+			</div>
+		</div>
+		<div class="allquestion">
+			<div class="numberq">
+				<p>08</p></div><div class="onequestion">
+				<div class="question">
+					<h2>When I am feeling discouraged or "down in the dumps"&#58;</h2>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>I often become rude, mad, or sometimes even mean.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="ha1" name="ha" value="1"><label for="ha1">1</label></span><span class="radiob2"><input type="radio" id="ha2" name="ha" value="2"><label for="ha2">2</label></span><span class="radiob3"><input type="radio" id="ha3" name="ha" value="3"><label for="ha3">3</label></span><span class="radiob4"><input type="radio" id="ha4" name="ha" value="4"><label for="ha4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>I withdraw, don&#39;t talk very much, and try to think my way out of the problem.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="hb1" name="hb" value="1"><label for="hb1">1</label></span><span class="radiob2"><input type="radio" id="hb2" name="hb" value="2"><label for="hb2">2</label></span><span class="radiob3"><input type="radio" id="hb3" name="hb" value="3"><label for="hb3">3</label></span><span class="radiob4"><input type="radio" id="hb4" name="hb" value="4"><label for="hb4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>I feel emotional, am sad, and usually like to talk it over with someone close to me.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="hc1" name="hc" value="1"><label for="hc1">1</label></span><span class="radiob2"><input type="radio" id="hc2" name="hc" value="2"><label for="hc2">2</label></span><span class="radiob3"><input type="radio" id="hc3" name="hc" value="3"><label for="hc3">3</label></span><span class="radiob4"><input type="radio" id="hc4" name="hc" value="4"><label for="hc4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>I try to figure out what&#39;s causing the problem and fix it.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="hd1" name="hd" value="1"><label for="hd1">1</label></span><span class="radiob2"><input type="radio" id="hd2" name="hd" value="2"><label for="hd2">2</label></span><span class="radiob3"><input type="radio" id="hd3" name="hd" value="3"><label for="hd3">3</label></span><span class="radiob4"><input type="radio" id="hd4" name="hd" value="4"><label for="hd4">4</label></span></span>
+				</div>
+			</div>
+		</div>
+		<div class="allquestion">
+			<div class="numberq">
+				<p>09</p></div><div class="onequestion">
+				<div class="question">
+					<h2>I feel good about myself when&#58;</h2>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>I can do things that are difficult.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="ia1" name="ia" value="1"><label for="ia1">1</label></span><span class="radiob2"><input type="radio" id="ia2" name="ia" value="2"><label for="ia2">2</label></span><span class="radiob3"><input type="radio" id="ia3" name="ia" value="3"><label for="ia3">3</label></span><span class="radiob4"><input type="radio" id="ia4" name="ia" value="4"><label for="ia4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>I can solve problems or figure things out.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="ib1" name="ib" value="1"><label for="ib1">1</label></span><span class="radiob2"><input type="radio" id="ib2" name="ib" value="2"><label for="ib2">2</label></span><span class="radiob3"><input type="radio" id="ib3" name="ib" value="3"><label for="ib3">3</label></span><span class="radiob4"><input type="radio" id="ib4" name="ib" value="4"><label for="ib4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>I can help other people.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="ic1" name="ic" value="1"><label for="ic1">1</label></span><span class="radiob2"><input type="radio" id="ic2" name="ic" value="2"><label for="ic2">2</label></span><span class="radiob3"><input type="radio" id="ic3" name="ic" value="3"><label for="ic3">3</label></span><span class="radiob4"><input type="radio" id="ic4" name="ic" value="4"><label for="ic4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>I am appreciated or rewarded for things I do.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="id1" name="id" value="1"><label for="id1">1</label></span><span class="radiob2"><input type="radio" id="id2" name="id" value="2"><label for="id2">2</label></span><span class="radiob3"><input type="radio" id="id3" name="id" value="3"><label for="id3">3</label></span><span class="radiob4"><input type="radio" id="id4" name="id" value="4"><label for="id4">4</label></span></span>
+				</div>
+			</div>
+		</div>
+		<div class="allquestion">
+			<div class="numberq">
+				<p>10</p></div><div class="onequestion">
+				<div class="question">
+					<h2>Teachers at school who saw me when I wasn&#39;t on my best behavior might describe me as&#58;</h2>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Rowdy or a little wild</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="ja1" name="ja" value="1"><label for="ja1">1</label></span><span class="radiob2"><input type="radio" id="ja2" name="ja" value="2"><label for="ja2">2</label></span><span class="radiob3"><input type="radio" id="ja3" name="ja" value="3"><label for="ja3">3</label></span><span class="radiob4"><input type="radio" id="ja4" name="ja" value="4"><label for="ja4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Arrogant.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="jb1" name="jb" value="1"><label for="jb1">1</label></span><span class="radiob2"><input type="radio" id="jb2" name="jb" value="2"><label for="jb2">2</label></span><span class="radiob3"><input type="radio" id="jb3" name="jb" value="3"><label for="jb3">3</label></span><span class="radiob4"><input type="radio" id="jb4" name="jb" value="4"><label for="jb4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Talkative.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="jc1" name="jc" value="1"><label for="jc1">1</label></span><span class="radiob2"><input type="radio" id="jc2" name="jc" value="2"><label for="jc2">2</label></span><span class="radiob3"><input type="radio" id="jc3" name="jc" value="3"><label for="jc3">3</label></span><span class="radiob4"><input type="radio" id="jc4" name="jc" value="4"><label for="jc4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Someone who wants things my way; dominant; worrying.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="jd1" name="jd" value="1"><label for="jd1">1</label></span><span class="radiob2"><input type="radio" id="jd2" name="jd" value="2"><label for="jd2">2</label></span><span class="radiob3"><input type="radio" id="jd3" name="jd" value="3"><label for="jd3">3</label></span><span class="radiob4"><input type="radio" id="jd4" name="jd" value="4"><label for="jd4">4</label></span></span>
+				</div>
+			</div>
+		</div>
+		<div class="allquestion">
+			<div class="numberq">
+				<p>11</p></div><div class="onequestion">
+				<div class="question">
+					<h2>Teachers at school (who like me and in whose class I do pretty well) would probably describe me as&#58;</h2>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Charming, a natural leader, clever, someone who is fun to have around.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="ka1" name="ka" value="1"><label for="ka1">1</label></span><span class="radiob2"><input type="radio" id="ka2" name="ka" value="2"><label for="ka2">2</label></span><span class="radiob3"><input type="radio" id="ka3" name="ka" value="3"><label for="ka3">3</label></span><span class="radiob4"><input type="radio" id="ka4" name="ka" value="4"><label for="ka4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Thoughtful, someone who has good answers, someone who likes to figure out problems.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="kb1" name="kb" value="1"><label for="kb1">1</label></span><span class="radiob2"><input type="radio" id="kb2" name="kb" value="2"><label for="kb2">2</label></span><span class="radiob3"><input type="radio" id="kb3" name="kb" value="3"><label for="kb3">3</label></span><span class="radiob4"><input type="radio" id="kb4" name="kb" value="4"><label for="kb4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Nice, friendly, someone who gets along with other students and is helpful to the teacher and others.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="kc1" name="kc" value="1"><label for="kc1">1</label></span><span class="radiob2"><input type="radio" id="kc2" name="kc" value="2"><label for="kc2">2</label></span><span class="radiob3"><input type="radio" id="kc3" name="kc" value="3"><label for="kc3">3</label></span><span class="radiob4"><input type="radio" id="kc4" name="kc" value="4"><label for="kc4">4</label></span></span>
+				</div>
+				<div class="fulllinequestion">
+					<span class="linequestion">
+						<p>Neat, organized, prepared, someone who does assignments and is a good student.</p>
+					</span>
+					<span class="radiobutton"><span class="radiob1"><input type="radio" id="kd1" name="kd" value="1"><label for="kd1">1</label></span><span class="radiob2"><input type="radio" id="kd2" name="kd" value="2"><label for="kd2">2</label></span><span class="radiob3"><input type="radio" id="kd3" name="kd" value="3"><label for="kd3">3</label></span><span class="radiob4"><input type="radio" id="kd4" name="kd" value="4"><label for="kd4">4</label></span></span>
+				</div>
+			</div>
+		</div>		
+		<div class="allquestion">
+			<div class="numberq">
+			<p>SUBMIT</p></div><div class="oneinfo">
+				<h1>Submit</h1>
+				<p>Thanks, you have completed all the questions</p>
+				<input type="submit" class="submit" value="Submit">
+			</div>
+		</div>
+		
+	</form>
+	<footer>
+		<p>&copy; Copyright 2020 by A.Gholami, B.Zhang, H.Nguyen and P.H.Otero(Kani).</p>
+	</footer>	
+	
+		
+		<script>
+		alpha = ["a","b","c","d","e","f","g","h","i","j","k"];
+		$("input[type=radio]").on('change',function(){
+        radioval = $(this).val();
+        radioname = $(this).prop("name");
+		for (var j=0; j<4; j++)
+		{
+				$("input[name=\"" + radioname[0] + alpha[j] + "\"][value=" + radioval + "]").prop("checked", false);
+		}
+		$("input[name=\"" + radioname + "\"][value=" + radioval + "]").prop("checked", true);
+		});
+		</script>
+
+	</body>
+	
+</html>

@@ -1,0 +1,462 @@
+body{
+	background-color: #202124;
+}
+
+footer {
+	text-align: center;
+	color: white;
+	padding: 3px;
+}
+
+.title {
+		display: inline-block;
+		font-family: Stencil Std, fantasy
+		color: #E74C3C;
+		font-size:600%;
+		animation-name: example;
+		animation-duration: 10s;
+		margin-left: -400px;
+		text-align: center;
+		animation-iteration-count: 10;
+	}
+
+@keyframes example {
+  0%   {color: #1b42b5;}
+  25%  {color: #dba902;}
+  50%  {color: #02b039;}
+  100% {color: #e66e12;}
+}
+
+.numberq {
+	display: inline-block;
+
+}
+.numberq p{
+	display: inline-block;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	height: 90px;
+	width: 300px;
+	color: #666462;
+	font-size:1000%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 49px;
+}
+
+.allquestion{
+	margin-left: 400px;
+	width: 1100px;
+}
+
+.oneinfo {
+	display: inline-block;
+	
+	margin: auto;
+	height: auto;
+	width: 750px;
+	padding-bottom: 30px;
+	padding-top: 15px;
+
+	border-width: 1px 1px 1px 1px;
+	border-style:solid;
+	border-radius: 10px 10px 10px 10px;
+	background: #ECF0F1;
+	border-color: #2C3E50;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	box-shadow: inset 0 0 10px #777777;
+}
+.oneinfo p{
+	margin-left:30px;
+	margin-right:30px;
+	
+}
+.oneinfo h1{
+	margin-left:30px;
+	margin-right:30px;
+	
+}
+.oneinfo label{
+	display: inline-block;
+	height: 24px;
+    padding: 5px 10px;
+	border-width: 1px 0px 1px 1px;
+	border-style:solid;
+	border-radius: 10px 0px 0px 10px;
+	margin-left:30px;
+	margin-right:0px;
+	border-color: #2C3E50;
+	background-color: #2980b9;
+	color: #ffffff;
+	font-size: 16px;
+	
+}
+.oneinfo input{
+	height: 32px;
+	width: 200px;
+	font-size: 16px;
+	border-width: 1px 1px 1px 1px;
+	border-style:solid;
+	border-radius: 0px 10px 10px 0px;
+	border-color: #2C3E50;
+}
+.onequestion {
+	display: inline-block;
+	
+	margin: auto;
+	height: auto;
+	width: 750px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+
+	border-width: 1px 1px 1px 1px;
+	border-style:solid;
+	border-radius: 10px 10px 10px 10px;
+	background: #ECF0F1;
+	border-color: #2C3E50;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	box-shadow: inset 0 0 10px #777777;
+}
+
+.fulllinequestion {
+	margin: auto;
+	width: 700px;
+	height: 62px;
+	
+}
+
+.question {
+	margin: auto;
+	height: auto;
+	width: 700px;
+	border-width: 1px 1px 1px 1px;
+	border-style:solid;
+	border-radius: 10px 10px 10px 10px;
+	margin-bottom: 5px;
+	border-color: #2C3E50;
+	background: #ffffff;
+	color: #2C3E50;
+}
+
+.question h2{	
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.intro .que {
+	color: #2C3E50;	
+	}
+
+.linequestion {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 502px;
+	right: 0;
+	height: 50px;
+	float: left;
+	border-width: 1px 0px 1px 1px;
+	border-style:solid;
+	border-radius: 10px 0px 0px 10px;
+	border-color: #2C3E50;
+	background: #ffffff;	
+	font-size: 110%;
+	color: #2C3E50;	
+}
+
+.linequestion p{
+
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	
+}
+
+.radiobutton input[type="radio"]{
+	opacity: 0;
+	position: fixed;
+	width: 0;
+	
+}
+.radiobutton label{
+    display: inline-block;
+    background-color: #ffffff;
+	width: 20px;
+	height: 30px;
+    padding: 10px 14px;
+    font-family: sans-serif, Arial;
+    font-size: 25px;
+	
+	border-style: solid;
+	border-width: 1px 0px 1px 1px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #ffffff;
+	
+
+}
+.radiob1 label{
+	background-color: #82bce3;
+	border-color: #2C3E50 #82bce3 #2C3E50 #82bce3;
+	
+}
+.radiob2 label{
+	background-color: #58a6da;
+	border-color: #2C3E50 #58a6da #2C3E50 #58a6da;
+}
+.radiob3 label{
+	background-color: #2e90d1;
+	border-color: #2C3E50 #2e90d1 #2C3E50 #2e90d1;
+}	
+.radiob4 label{
+	background-color: #2980b9;
+	border-color: #2C3E50 #2C3E50 #2C3E50 #2980b9;
+	
+	border-width: 1px 1px 1px 1px;
+	border-radius: 0px 10px 10px 0px;
+}
+.radiobutton input[type="radio"]:checked + label {
+    background-color: #E74C3C;
+	border-color: #2C3E50 #E74C3C #2C3E50 #E74C3C;
+}
+
+.radiobutton label:hover {
+  background-color: #abd3ed;
+}
+
+.button1 {
+				  background-color: #1995a8;
+				  color: white;
+				  padding: 12px 20px;
+				  border: none;
+				  border-radius: 4px;
+				  cursor: pointer;
+				  margin-left: 670px;			
+				}
+				
+				.button1:hover {
+				  background-color: #087282;
+				}
+				
+.submit {
+				  background-color: #1995a8;
+				  color: white;
+				  border: none;
+				  border-radius: 25px;
+				  cursor: pointer;	
+				  margin-left: 30px;
+				  padding: 5px;
+				  
+				}
+				
+				.submit:hover {
+				  background-color: #087282;
+				}
+				
+.formresult
+	{
+		text-align: center;
+	}
+
+
+.bodyblue{
+	background-color: #10074a;
+}
+			
+.numberqb {
+	display: inline-block;
+
+}
+.numberqb p{
+	display: inline-block;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	height: 90px;
+	width: 300px;
+	color: #4733c4;
+	font-size:1000%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 200px;
+}
+
+.bodygold{
+	background-color: #b09409;
+}
+				
+.numberqg {
+	display: inline-block;
+
+}
+.numberqg p{
+	display: inline-block;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	height: 90px;
+	width: 300px;
+	color: #DAA520;
+	font-size:1000%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 200px;
+}
+
+.bodygreen{
+	background-color: #0a8f20;
+}
+				
+.numberqgr {
+	display: inline-block;
+
+}
+.numberqgr p{
+	display: inline-block;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	height: 90px;
+	width: 300px;
+	color: #11c22f;
+	font-size:1000%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 140px;
+}
+
+.bodyorange{
+	background-color: #e66509;
+}
+				
+.numberqo {
+	display: inline-block;
+}
+
+.numberqo p{
+	display: inline-block;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	height: 90px;
+	width: 300px;
+	color: #e65c00;
+	font-size:1000%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 80px;
+}
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #05182d;
+}
+
+@-webkit-keyframes backgroundAnimate {
+  from {
+    left: 0;
+    top: 0;
+  }
+  to {
+    left: -10000px;
+    top: -2000px;
+  }
+}
+
+@-moz-keyframes backgroundAnimate {
+  from {
+    left: 0;
+    top: 0;
+  }
+  to {
+    left: -10000px;
+    top: -2000px;
+  }
+}
+
+@-o-keyframes backgroundAnimate {
+  from {
+    left: 0;
+    top: 0;
+  }
+  to {
+    left: -10000px;
+    top: -2000px;
+  }
+}
+
+@keyframes backgroundAnimate {
+  from {
+    left: 0;
+    top: 0;
+  }
+  to {
+    left: -10000px;
+    top: -2000px;
+  }
+}
+
+#back {
+  background: url(http://www.tranexnet.com/img/back.png) repeat 20% 20%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+  z-index: -1;
+  -webkit-animation-name: backgroundAnimate;
+  -webkit-animation-duration: 500s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: backgroundAnimate;
+  -moz-animation-duration: 5s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: backgroundAnimate;
+  -o-animation-duration: 500s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: backgroundAnimate;
+  animation-duration: 500s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+#front {
+  background: url(http://www.tranexnet.com/img/front.png) repeat 35% 35%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+  z-index: -1;
+  -webkit-animation-name: backgroundAnimate;
+  -webkit-animation-duration: 300s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: backgroundAnimate;
+  -moz-animation-duration: 300s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: backgroundAnimate;
+  -o-animation-duration: 300s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: backgroundAnimate;
+  animation-duration: 300s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+
+Resources
+
+
+				
+				
